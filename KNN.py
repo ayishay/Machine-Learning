@@ -1,3 +1,7 @@
+#implement KNN in Python
+#Initial with 3 centers for all the points in a 2-dimentional space
+#Recaculate the centers untill they are stable
+
 import numpy as np
 points = np.random.randint(1000,size =(1000,2))
 centers = np.random.randint(1000,size=(3,2))
